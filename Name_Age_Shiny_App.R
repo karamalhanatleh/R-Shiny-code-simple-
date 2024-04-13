@@ -2,7 +2,7 @@
  # This Shiny app is a simple web application that allows users to 
  # input their name and age. The interface consists of two input 
  # fields: one for the name and another for the age. After users
- # enter their information and click elsewhere, a greeting message 
+ # enter their information  and click elsewhere, a greeting message 
  # is displayed below the input fields, addressing the user by name 
  # and stating their age. This app demonstrates the basic functionality of 
  # capturing user input and generating dynamic output in a Shiny application.
@@ -12,10 +12,11 @@
 # Load  library
 library(shiny)
 
-# Define the user interface (UI)
+
+# Define user interface
 ui <- fluidPage(
   
-  # Title panel at the top of the app
+  # Title panel at  top of app
   titlePanel("Name and Age Input"),
   
   # Sidebar layout with input fields
